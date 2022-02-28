@@ -1,0 +1,48 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js test
+
+PATH: 
+  D:\Miniconda3\condabin;C:\Users\Austin家过\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Austin家过\AppData\Local\Programs\Python\Python39\;C:\Python310\Scripts\;C:\Python310\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Java\jre1.8.0_241\bin;C:\Program Files (x86)\Java\jre1.8.0_241\lib;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\mingw64\bin;C:\ProgramData\chocolatey\bin;D:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;D:\Miniconda3;D:\Miniconda3\Scripts;D:\ffmpeg-2021-12-30-git-12f21849e5-full_build\bin;C:\Users\Austin家过\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Austin家过\AppData\Local\Programs\Python\Python39\;C:\mingw64\bin;C:\modeltech64_2020.4\win64;C:\Users\Austin家过\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Austin家过\AppData\Roaming\npm;C:\Users\Austin家过\AppData\Local\Yarn\bin;C:\Users\Austin家过\AppData\Local\GitHubDesktop\bin;;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Html\FoodAdvisor-front\Front\package.json: Unexpected token } in JSON at position 253
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "front",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "next": "^12.1.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "npm start",
+  
+    },
+    "author": "Austinbaba",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
